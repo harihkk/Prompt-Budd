@@ -1,11 +1,7 @@
 name: Deploy to Cloud Run on merge to main
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'backend/**'
+  workflow_dispatch:
 
 jobs:
   continuous_integration:
